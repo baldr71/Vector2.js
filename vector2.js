@@ -2,7 +2,7 @@
  * @author       Anthony Vorobyov <xbaldr71@gmail.com>
  * @copyright    2018 Anthony Vorobyov
  * @license      MIT License
- * @version      0.2.4
+ * @version      0.2.4b
  */
 'use strict';
 /**
@@ -75,7 +75,7 @@ class Vector2 {
      * @param {Vector2} b - Second vector.
      * @static
      */
-    static get dotProduct(a, b) {
+    static dotProduct(a, b) {
         return a.x * b.x + a.y * b.y;
     }
     /**
